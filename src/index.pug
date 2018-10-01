@@ -10,6 +10,108 @@ html(lang='en')
 	body
 		header
 		main
+			section.round_sections 
+				div.container
+					div.row
+						div.col.sections_round
+							div.onkoginecology
+								a(href='#') ОНКОГИНЕКОЛОГИЯ
+							div.onkourology
+								a(href='#') ОНКОУРОЛОГИЯ
+							div.onkomamma
+								a(href='#') ОНКОЛОГИИ #[br] МОЛОЧНОЙ ЖЕЛЕЗЫ
+							div.onkogastro
+								a(href='#') ОНКОЛОГИЯ #[br] ОРГАНОВ ЖКТ
+							div.onkoderma
+								a(href='#') ОНКОДЕРМАТОЛОГИЯ
+							
+			section.form_enroll
+				div.container
+					div.row
+						div.col-sm-6
+							p.like-h2 ЗАПИСАТЬСЯ НА ПРИЕМ
+							p Нажимая на кнопку, я даю согласие на обработку своих персональных данных в соответствии с #[a(href='#') пользовательским соглашением].
+						div.col-sm-6
+							form.enroll
+								input(type='text', name='name', placeholder='имя')
+								input(type='tel', name='tel', placeholder='телефон')
+								button записаться
+
+			section.ourspecialists.top40
+				div.container
+					div.row
+						div.col.align-self-center.top-80.text-center
+							span.section-title Наши специалисты #[i] #[a(href='#')] все специалисты
+					div.row 
+						div.specialists__slider.owl-carousel.owl-theme
+							div.specialist__item
+								a(href='#')
+									img(src='./img/photo.png')
+									span.doctor__name ВОЛКОВ АНТОН МАКСИМОВИЧ #[br]
+									span.doctor__spec врач-онколог
+							div.specialist__item
+								a(href='#')
+									img(src='./img/photo.png')
+									span.doctor__name ВОЛКОВ АНТОН МАКСИМОВИЧ #[br]
+									span.doctor__spec врач-онколог
+							div.specialist__item
+								a(href='#')
+									img(src='./img/photo.png')
+									span.doctor__name ВОЛКОВ АНТОН МАКСИМОВИЧ #[br]
+									span.doctor__spec врач-онколог
+							div.specialist__item
+								a(href='#')
+									img(src='./img/photo.png')
+									span.doctor__name ВОЛКОВ АНТОН МАКСИМОВИЧ #[br]
+									span.doctor__spec врач-онколог
+							div.specialist__item
+								a(href='#')
+									img(src='./img/photo.png')
+									span.doctor__name ВОЛКОВ АНТОН МАКСИМОВИЧ #[br]
+									span.doctor__spec врач-онколог
+							div.specialist__item
+								a(href='#')
+									img(src='./img/photo.png')
+									span.doctor__name ВОЛКОВ АНТОН МАКСИМОВИЧ #[br]
+									span.doctor__spec врач-онколог
+
+			section.avdicotxt
+				div.container
+					span.section-title Онкологический центр «СМ-Клиника» это —
+					div.row.top40
+						div.col-sm-6.col-md-6.col-lg-4
+							div.avd-icotxt.avd-icotxt-one
+								p.block-title ПРОФЕССИОНАЛИЗМ
+								p В центре работает более 30 квалифицированных врачей онкологов, среди которых есть кандидаты, доктора медицинских наук и профессора.
+						div.col-sm-6.col-md-6.col-lg-4
+							div.avd-icotxt.avd-icotxt-two
+								p.block-title КОМПЛЕКСНЫЙ ПОДХОД
+								p План диагностики и лечения разрабатывается целой группой специалистов в составе лечащего врача-онколога, хирурга, радиолога, химиотерапевта, реабилитолога. 
+						div.col-sm-6.col-md-6.col-lg-4
+							div.avd-icotxt.avd-icotxt-three
+								p.block-title СТАЦИОНАРНОЕ ЛЕЧЕНИЕ
+								p В центре работает более 30 квалифицированных врачей онкологов, среди которых есть кандидаты, доктора медицинских наук и профессора.
+						div.col-sm-6.col-md-6.col-lg-4
+							div.avd-icotxt.avd-icotxt-four
+								p.block-title СОВРЕМЕННОЕ ОБОРУДОВАНИЕ
+								p В центре работает более 30 квалифицированных врачей онкологов, среди которых есть кандидаты, доктора медицинских наук и профессора.
+						div.col-sm-6.col-md-6.col-lg-4
+							div.avd-icotxt.avd-icotxt-five
+								p.block-title ВЫСОКИЙ УРОВЕНЬ ОБСЛУЖИВАНИЯ
+								p В центре работает более 30 квалифицированных врачей онкологов, среди которых есть кандидаты, доктора медицинских наук и профессора.
+						div.col-sm-6.col-md-6.col-lg-4
+							div.avd-icotxt.avd-icotxt-six
+								p.block-title СЛУЖБА ПОМОЩИ НА ДОМУ
+								p В центре работает более 30 квалифицированных врачей онкологов, среди которых есть кандидаты, доктора медицинских наук и профессора.
+			section.bottom-map
+				div.map__container
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa4c0cbdfe66cbbe2912dac9af9c426b0d9ba53de2585f899b615a2d363d33b5e&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=false"></script>
+				div.container
+					div.map__legend
+						img(src='./img/sm-dunay.jpg')
+						p Дунайский пр., д. 47 (м. Купчино)
+						span Ежедневно с 09:00 до 22:00
+					
 		footer.footer
 			div.container
 				div.row

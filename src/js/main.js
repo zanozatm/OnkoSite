@@ -12,5 +12,7 @@
 //= ../../node_modules/bootstrap/js/dist/tab.js
 //= ../../node_modules/bootstrap/js/dist/tooltip.js
 //= ../../node_modules/bootstrap/js/dist/popover.js
+//= ../../node_modules/owl.carousel/dist/owl.carousel.min.js
+
 
 //= scripts.js

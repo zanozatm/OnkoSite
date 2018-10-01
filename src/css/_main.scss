@@ -14,13 +14,276 @@ h1, h2, h3, h4 {
 h1 {
 	font-size:22px;
 }
-h2 {
+h2, .like-h2 {
 	font-size:22px;
 }
 h3 {
 	font-size:18px;
 }
+.section-title {
+	border: 1px solid $black;
+	padding: 8px 20px 12px; 
+	font-size: 2em;
+	font-weight: 700;
+	text-align: center;
+	background: $white;
 
+}
+
+.top20 {
+	margin-top: 20px;
+}
+.top40 {
+	margin-top: 40px;
+}
+.bottom20 {
+	margin-bottom: 20px;
+}
+.bottom40 {
+	margin-bottom: 40px;
+}
+
+.top-20 {
+	margin-top: -20px;
+}
+.top-40 {
+	margin-top: -40px;
+}
+.top-80 {
+	margin-top: -80px;
+}
+
+.round_sections {
+	margin:40px 0 ;
+	padding: 30px 0;
+
+	.sections_round {
+		display: block;
+	}
+
+	.onkoginecology, .onkourology, .onkomamma,.onkogastro, .onkoderma {
+		width: 215px;
+		height: 215px;
+		display: inline-block;
+
+		a {
+			line-height: 25px;
+			display: table-cell;
+		    color: $green;
+		    word-break: break-word;
+		    text-align: center;
+		    width: 215px;
+			height: 215px;
+			vertical-align: middle;
+		}
+	}
+
+	.onkoginecology {
+		
+		background: url('../img/onkoginecology.png') no-repeat center center;
+	}
+	.onkourology{
+		
+		background: url('../img/onkourology.png') no-repeat center center;
+	}
+	.onkomamma{
+		
+		background: url('../img/onkomamma.png') no-repeat center center;
+	}
+	.onkogastro{
+		
+		background: url('../img/onkogastro.png') no-repeat center center;
+	}
+	.onkoderma{
+		width: 215px;
+		height: 215px;
+		display: inline-block;
+		background: url('../img/onkoderma.png') no-repeat center center;
+	}
+}
+
+.form_enroll {
+	background: $green url('../img/enrollbg.png') no-repeat center center;
+//	height: 280px;
+	margin:40px 0 100px;
+	padding: 30px 0;
+	color: $white;
+
+	a {
+		color: $white;
+		text-decoration: underline;
+	}
+
+	.like-h2 {
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+.enroll {
+	width: 360px;
+	background: #cbdcd1;
+	border: 2px solid $white;
+	border-radius: 4px;
+	padding: 10px;
+
+	input {
+		width: 100%;
+		height: 50px;
+		padding: 8px;
+		box-sizing: border-box;
+		margin-bottom: 10px;
+		color: $light-green;
+		text-transform: uppercase;
+		font-size: 0.9em;
+		font-weight: 500;
+
+	}
+
+	button {
+		width: 100%;
+		height: 50px;
+		background: #d15d58;
+		border: 1px solid $white;
+		color: $white;
+		border-radius: 4px;
+		text-transform: uppercase;
+		font-size: 0.9em;
+		font-weight: 500;
+	}
+}
+
+}
+.ourspecialists {
+	background: #adcab8;
+	padding: 40px 0;
+
+	.specialists__slider {
+		margin-top: 20px;
+		padding-left: 15px;
+
+		.owl-nav {
+			position: absolute;
+    		top: 30%;
+    		font-size: 4em;
+    		font-weight: 500;
+    		width: 100%;
+    		outline: none;
+
+    		.owl-prev {
+    			position: absolute;
+    			left: -20px;
+    			outline: none;
+    		}
+    		.owl-next {
+    			position: absolute;
+    			right: 20px;
+    			outline: none;
+    		}
+		}
+
+	}
+	.specialist__item {
+		width: 200px;
+		background: $white;
+		padding:10px;
+		box-sizing: border-box;
+		border-radius: 4px;
+		text-align: left;
+
+		a { 
+			display: block;
+			color: $green;
+		}
+	}
+	.doctor__name {
+		font-weight: 600;
+		font-size: 0.9em;
+		text-transform: uppercase;
+		margin: 8px 0;
+	}
+	.doctor__spec {
+		font-size: 0.9em;
+	}
+}
+
+
+.avdicotxt {
+	position: relative;
+	margin: 40px;
+	padding-top: 40px;
+	text-align: center;
+}
+.avd-icotxt{
+	position: relative;
+//	background-color: $lighter-green;
+	width: 100%;
+	margin: 0 auto;
+	height: 250px;
+	box-sizing: border-box;
+    padding: 90px 15px 15px;
+    text-align: center;
+
+	&-one {
+		background: url('../img/icotxt-one.png') no-repeat;
+		background-size: cover;
+	}
+	&-two {
+		background: url('../img/icotxt-two.png') no-repeat;
+		background-size: cover;
+	}
+	&-three {
+		background: url('../img/icotxt-three.png') no-repeat;
+		background-size: cover;
+	}
+	&-four {
+		background: url('../img/icotxt-four.png') no-repeat;
+		background-size: cover;
+	}
+	&-five {
+		background: url('../img/icotxt-five.png') no-repeat;
+		background-size: cover;
+	}
+	&-six {
+		background: url('../img/icotxt-six.png') no-repeat;
+		background-size: cover;
+	}
+	&:nth-child(n+3) {
+		margin-top: -20px;
+	}
+
+	.block-title {
+		font-weight: 700;
+	}
+	p {
+		font-size: 0.9em;
+	}
+}
+
+
+
+.bottom-map {
+	position: relative;
+	margin-top: 20px;
+}
+.map__legend {
+	width: 360px;
+	height: auto;
+	position: absolute;
+	top: 100px;
+	padding: 25px;
+	background-color: $white;
+	border-radius: 8px;
+
+	img {
+		margin-bottom: 15px;
+	}
+	p {
+		font-size: 0.9em;
+		margin-bottom: 0.4em;
+	}
+	span {
+		font-weight: 600;
+	}
+}
 .footer {
 	background-color: $green;
 	padding: 20px 0;

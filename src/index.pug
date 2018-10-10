@@ -41,6 +41,18 @@ html(lang='en')
 						a(href='#') Подробнее
 					div.slider_enroll
 						a(href='#') Записаться
+			section.content_header.container
+				div.breadcrumbs
+				div.content__header
+					div.row
+						div.header__image.col-sm-12.col-md-6.top40
+							img(src='./img/header_img.jpg')
+						div.header__txt.col-sm-12.col-md-6
+							div.header__title Консультация онколога
+							div.header__intro Онколог — это врач, который диагностирует доброкачественные и злокачественные (раковые) новообразования, назначает профилактику, лечение и наблюдает пациента с опухолевым pаболеванием на протяжении всей терапии и после нее (как правило, от 1 до 5 лет).
+							div.header__askbtn 
+								a(href='#') Задать вопрос
+			
 			section.main_directions
 				div.container
 					ul.directions_list
@@ -95,12 +107,49 @@ html(lang='en')
 								input(type='text', name='name', placeholder='имя')
 								input(type='tel', name='tel', placeholder='телефон')
 								button записаться
+			section.form_enroll.red_enroll
+				div.container
+					div.row
+						div.col-sm-6
+							p.like-h2 ЗАПИСАТЬСЯ НА ПРИЕМ
+							p Нажимая на кнопку, я даю согласие на обработку своих персональных данных в соответствии с #[a(href='#') пользовательским соглашением].
+						div.col-sm-6
+							form.enroll
+								input(type='text', name='name', placeholder='имя')
+								input(type='tel', name='tel', placeholder='телефон')
+								button записаться
+			section.form_enroll.enroll_horizont
+				div.container
+					p.like-h2 Хотите мы вам перезвоним?
+					form#enrollme
+					div.row
+						div.col-sm-12.col-md-4
+							input(type='text', name='name', placeholder='имя')
+						div.col-sm-12.col-md-4
+							input(type='tel', name='tel', placeholder='телефон')
+						div.col-sm-12.col-md-4
+							button записаться
+						div.col-sm-12
+							p Нажимая на кнопку, я даю согласие на обработку своих персональных данных в соответствии с #[a(href='#') пользовательским соглашением].
+			section.form_enroll.enroll_horizont.red_enroll
+				div.container
+					p.like-h2 Хотите мы вам перезвоним?
+					form#enrollme
+					div.row
+						div.col-sm-12.col-md-4
+							input(type='text', name='name', placeholder='имя')
+						div.col-sm-12.col-md-4
+							input(type='tel', name='tel', placeholder='телефон')
+						div.col-sm-12.col-md-4
+							button записаться
+						div.col-sm-12
+							p Нажимая на кнопку, я даю согласие на обработку своих персональных данных в соответствии с #[a(href='#') пользовательским соглашением].
 
 			section.ourspecialists.top40
 				div.container
 					div.row
 						div.col.align-self-center.top-80.text-center
-							span.section-title Наши специалисты #[i] #[a(href='#')] все специалисты
+							span.section-title Наши специалисты #[i] #[a(href='#') Все специалисты] 
 					div.row 
 						div.specialists__slider.owl-carousel.owl-theme
 							div.specialist__item
@@ -133,6 +182,51 @@ html(lang='en')
 									img(src='./img/photo.png')
 									span.doctor__name ВОЛКОВ АНТОН МАКСИМОВИЧ #[br]
 									span.doctor__spec врач-онколог
+
+			section.ourspecialists.top40
+				div.container
+					div.row
+						div.col.align-self-center.top-80.text-center
+							span.section-title Наши специалисты #[i] #[a(href='#') Все специалисты] 
+					div.row.top40
+						div.col-md-3
+							p.specialist__txt Записаться на прием онколога в «СМ-Клиника» вы можете круглосуточно, позвонив по телефону в Санкт-Петербурге +7 (495) 127-63-50 или заполнив форму обратной связи
+							div.doctors_label
+								p В нашем центре 11 врача проводят консультации
+							div.doctors_counter
+								a(href='#') #[span Все специалисты] #[sup 14]
+						div.col-sm-12.col-md-8
+							ul.specialists
+								li.specialist__item
+									a(href='#')
+										img(src='./img/photo.png')
+										span.doctor__name ВОЛКОВ АНТОН МАКСИМОВИЧ #[br]
+										span.doctor__spec врач-онколог
+									a.specialist_enroll(href='#') Записаться
+								li.specialist__item
+									a(href='#')
+										img(src='./img/photo.png')
+										span.doctor__name ВОЛКОВ АНТОН МАКСИМОВИЧ #[br]
+										span.doctor__spec врач-онколог
+									a.specialist_enroll(href='#') Записаться
+								li.specialist__item
+									a(href='#')
+										img(src='./img/photo.png')
+										span.doctor__name ВОЛКОВ АНТОН МАКСИМОВИЧ #[br]
+										span.doctor__spec врач-онколог
+									a.specialist_enroll(href='#') Записаться
+								li.specialist__item
+									a(href='#')
+										img(src='./img/photo.png')
+										span.doctor__name ВОЛКОВ АНТОН МАКСИМОВИЧ #[br]
+										span.doctor__spec врач-онколог
+									a.specialist_enroll(href='#') Записаться
+								li.specialist__item
+									a(href='#')
+										img(src='./img/photo.png')
+										span.doctor__name ВОЛКОВ АНТОН МАКСИМОВИЧ #[br]
+										span.doctor__spec врач-онколог
+									a.specialist_enroll(href='#') Записаться
 
 			section.avdicotxt
 				div.container

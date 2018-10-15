@@ -56,7 +56,7 @@ h3 {
 header {
 	position: fixed;
     width: 100%;
-    height: 210px;
+    height: 190px;
     z-index: 100;
     background-color: $white;
 
@@ -67,9 +67,9 @@ main {
 }
 .main_logo {
 	display: flex;
-	margin-top: 20px;
+	margin-top: 10px;
 	justify-content: space-between;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 
 	.logo_image {
 		width: 206px;
@@ -77,7 +77,7 @@ main {
 	}
 	.site_title {
 		color: $green;
-		font-size: 2.2em;
+		font-size: 2em;
 		width: calc(100% - 206px);
 		text-align: center;
 
@@ -622,6 +622,7 @@ input {
 	    margin-top: -40px;
 	    margin-right: 30px;
 	    margin-bottom: 20px;
+	    color:#fff;
 	}
 	.header__intro {
 		font-size: 0.9em;
@@ -778,4 +779,16 @@ input.sm-search {
 	color: #fff;
 	text-decoration: none;
 	
+}
+.pull-left.item-image {
+    height: 250px;
+    overflow: hidden;
+}
+.page-default {
+	margin: 20px auto;
+}
+.triangle-bottom {
+	background: url(../images/trianglebg.png) center bottom no-repeat;
+    background-size: contain;
+    padding-bottom: 140px;
 }

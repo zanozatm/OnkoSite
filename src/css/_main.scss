@@ -55,17 +55,19 @@ h3 {
 header {
 	position: fixed;
     width: 100%;
-    height: 100px;
+    height: 210px;
     z-index: 100;
+    background: $white;
 }
 main {
 	position: relative;
-    padding-top: 150px;
+    padding-top: 230px;
 }
 .main_logo {
 	display: flex;
 	margin-top: 20px;
 	justify-content: space-between;
+	padding-bottom: 10px;
 
 	.logo_image {
 		width: 206px;
@@ -77,6 +79,27 @@ main {
 		width: calc(100% - 206px);
 		text-align: center;
 
+	}
+}
+.main-nav-block {
+	width: 100%;
+	background: #cbdcd1;
+	height: 65px;
+	display: flex;
+	margin-top: 10px;
+	border-top: 10px solid $white;
+	box-shadow: 0px -2px 0px 0px #a8c8b4;
+
+	.main-nav {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		flex: 4
+
+	}
+
+	.search-bar {
+		flex: 1;
 	}
 }
 
@@ -193,7 +216,8 @@ main {
 }
 .main_directions {
 	padding: 30px 0 40px;
-	background: url('../img/trianglebg.png') no-repeat center bottom;
+	background: url('../img/trianglebg.png') no-repeat center top;
+	background-size: cover;
 }
 .slider_counter {
 	font-size: 0.9em;

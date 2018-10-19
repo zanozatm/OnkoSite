@@ -77,9 +77,10 @@ main {
 	}
 	.site_title {
 		color: $green;
-		font-size: 2em;
+		font-size: 1.8em;
 		width: calc(100% - 206px);
 		text-align: center;
+		align-self: flex-end;
 
 	}
 }
@@ -184,13 +185,14 @@ main {
 	position: relative;
 	flex-basis: 240px;
 	.ico24h {
-		background: url('../img/ico24h.png');
+		background: url('../images/24.svg');
 		width: 56px;
 		height: 67px;
 		display: block;
 		z-index: 33;
 		float: left;
 		position: relative;
+		background-size: cover;
 
 	}
 	a {
@@ -618,7 +620,7 @@ input {
 		font-weight: 700;
 		font-size: 1.8em;
 	    margin-left: -30px;
-	    padding: 20px 30px;
+	    padding: 6px 30px;
 	    margin-top: -40px;
 	    margin-right: 30px;
 	    margin-bottom: 20px;
@@ -752,6 +754,7 @@ button.btn-custom-search.finder {
     border: none;
     position: absolute;
     right: 0px;
+    padding: 8px;
 }
 .finder {
 	position: relative;
@@ -764,22 +767,21 @@ input.sm-search {
 	font-weight: 500;
 }
 .main-nav-block .navbar {
-	margin-left: 0;
-    padding-left: 0;
-    margin-right: 0;
-    padding-right: 0;
+	margin: 0;
+    padding: 0;
 }
-.main-nav-block .navbar-nav li a{
+.main-nav-block .navbar-nav li, .main-nav-block .navbar-nav li a{
 	color: #090909;
 	font-weight: 500;
 	padding: 14px 20px;
 }
-.main-nav-block .navbar-nav li a:hover, .main-nav-block .navbar-nav li.active a {
+.main-nav-block .navbar-nav li:hover, .main-nav-block .navbar-nav li.active, .main-nav-block .navbar-nav li:hover a,  .main-nav-block .navbar-nav li.active a {
 	background: #f2784b;
 	color: #fff;
 	text-decoration: none;
 	
 }
+
 .pull-left.item-image {
     height: 250px;
     overflow: hidden;
@@ -792,3 +794,188 @@ input.sm-search {
     background-size: contain;
     padding-bottom: 140px;
 }
+.title-bold {
+	font-size:1.2em;
+	font-weight: 700;
+/*	text-transform: uppercase; */
+	margin: auto;
+} 
+.title-green {
+	color: #4F7766;
+	
+}
+.modal-header .close {
+    padding: 15px;
+    margin: -15px -15px -15px 0;
+}
+.fz152 {
+	font-size:0.7em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 4px;
+}
+.btn-green {
+	background: #69A17E;
+	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+}
+.green-bg input, .green-bg textarea {
+	background: #E5EEE8;
+	border-radius: 2px;
+}
+.modal-header {
+	border-bottom: none;
+}
+.form-text {
+	width: 100%;
+	border-radius: 2px;
+}
+.gray-bg-form {
+	background: #EBECEC;
+}
+.control-half {
+	width: 49%;
+	display: inline-block;
+}
+.page-contacts {
+	margin-bottom: 20px;
+}
+.page-contacts h2, .page-contacts h3 {
+	text-align: left;
+	color: #090909;
+}
+
+.page-contacts h3 {
+	border-bottom: 1px solid #69a17e;
+	display: inline-block;
+}
+.clinic-contacts {
+	margin-bottom: 20px;
+}
+.clinic-adress {
+	background-image: url('../images/masshtab_kontakty.svg');
+	background-position: center left;
+	background-repeat: no-repeat;
+    background-size: 16px;
+    margin-bottom: 6px;
+	padding-left: 25px;
+	
+}
+.clinic-hours {
+	background-image: url('../images/chasy_raboty_kontakty.svg');
+	background-position: center left;
+	background-repeat: no-repeat;
+    background-size: 16px;
+    margin-bottom: 6px;
+	padding-left: 25px;
+	font-weight: 700;
+}
+.content__header .header__title {
+	text-align: left;
+	font-size: 1.48em;
+}
+
+.left-menu {
+	width: 100%;
+
+}
+
+.leftmenu__title {
+	background: #69a17e;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 12px 15px;
+	line-height: 1.1em;
+	margin-bottom: 4px;
+}
+.left-menu ul li {
+	width: 100%;
+	margin-bottom: 7px;
+	height: 48px;
+	
+}
+.left-menu ul li a {
+	width: 100%;
+	color: #69a17e;
+	height: 48px;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	border: 1px solid #69a17e;
+	line-height: 1em;
+}
+.left-menu ul li a:hover {
+	background: #69a17e;
+	color: #fff;
+}
+
+.fil1 {
+    fill: none!important;
+}
+.fil0 {
+    fill: #3A6A56!important;
+}
+
+.left-menu ul li a:hover svg path {
+	fill:#fff!important; 
+}
+.left-menu ul li a img, .left-menu ul li a svg {
+	height: 48px;
+	float: left;
+	width: auto;
+}
+.padding-right-none {
+	padding-right: 0px;
+}
+.content_header {
+    margin-bottom: 40px;
+}
+.page-uslugi .uslugi-menu {
+	justify-content: space-evenly;
+}
+.page-uslugi .uslugi-menu li {
+	width: 30%;
+	height: 48px;
+	 margin-top: 20px;
+	
+}
+.page-uslugi .uslugi-menu li a {
+	color: #3a6a56;
+	display: flex;
+    align-items: center;
+    
+}
+.page-uslugi .uslugi-menu li a img, .page-uslugi .uslugi-menu li a svg {
+	height: 48px;
+	float: left;
+	width: auto;
+
+}
+
+ .category {
+ margin-bottom:40px;
+ }
+ .navbar-expand-lg .navbar-nav li {
+ 	position: relative;
+ }
+ ul.nav-child {
+ 	position: absolute;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: auto;
+    background: #fff;
+    border-radius: 1px;
+    box-shadow: 5px 5px 10px 0px rgba(153,153,153,1);
+    display: none;
+    min-width: 160px;
+    max-width: 260px;
+}
+
+li.deeper.parent:hover  ul.nav-child {
+	display: block;
+}
+.form-search {margin: auto;}

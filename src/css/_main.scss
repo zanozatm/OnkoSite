@@ -355,7 +355,7 @@ margin-right: 20px;
 .form_enroll {
 	background: $green url('../img/enrollbg.png') no-repeat center center;
 //	height: 280px;
-	margin:40px 0 100px;
+	margin:40px 0 0;
 	padding: 30px 0;
 	color: $white;
 
@@ -491,35 +491,43 @@ input {
 //	background-color: $lighter-green;
 	width: 100%;
 	margin: 0 auto;
-	height: 250px;
+	min-height: 220px;
 	box-sizing: border-box;
-    padding: 90px 15px 15px;
+    padding: 15px 15px;
     text-align: center;
+    background: #e2eee6;
+    border-radius: 4px;
 
-	&-one {
-		background: url('../img/icotxt-one.png') no-repeat;
-		background-size: cover;
-	}
-	&-two {
-		background: url('../img/icotxt-two.png') no-repeat;
-		background-size: cover;
-	}
-	&-three {
-		background: url('../img/icotxt-three.png') no-repeat;
-		background-size: cover;
-	}
-	&-four {
-		background: url('../img/icotxt-four.png') no-repeat;
-		background-size: cover;
-	}
-	&-five {
-		background: url('../img/icotxt-five.png') no-repeat;
-		background-size: cover;
-	}
-	&-six {
-		background: url('../img/icotxt-six.png') no-repeat;
-		background-size: cover;
-	}
+    &-ico {
+    	width: 80px;
+    	height: 80px;
+    	margin: -55px auto 10px;
+    }
+
+	// &-one {
+	// 	background: url('../img/icotxt-one.png') no-repeat;
+	// 	background-size: cover;
+	// }
+	// &-two {
+	// 	background: url('../img/icotxt-two.png') no-repeat;
+	// 	background-size: cover;
+	// }
+	// &-three {
+	// 	background: url('../img/icotxt-three.png') no-repeat;
+	// 	background-size: cover;
+	// }
+	// &-four {
+	// 	background: url('../img/icotxt-four.png') no-repeat;
+	// 	background-size: cover;
+	// }
+	// &-five {
+	// 	background: url('../img/icotxt-five.png') no-repeat;
+	// 	background-size: cover;
+	// }
+	// &-six {
+	// 	background: url('../img/icotxt-six.png') no-repeat;
+	// 	background-size: cover;
+	// }
 	&:nth-child(n+3) {
 		margin-top: -20px;
 	}
@@ -602,7 +610,7 @@ input {
 	}
 }
 .content_header {
-	height: 300px;
+	height: 350px;
 }
 .content__header {
 	background: #69a17e;
@@ -620,7 +628,7 @@ input {
 		font-weight: 700;
 		font-size: 1.8em;
 	    margin-left: -30px;
-	    padding: 6px 30px;
+	    padding: 6px 15px;
 	    margin-top: -40px;
 	    margin-right: 30px;
 	    margin-bottom: 20px;
@@ -956,7 +964,7 @@ input.sm-search {
 }
 
  .category {
- margin-bottom:40px;
+
  }
  .navbar-expand-lg .navbar-nav li {
  	position: relative;
